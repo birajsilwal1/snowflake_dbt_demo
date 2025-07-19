@@ -1,0 +1,8 @@
+version: 2
+sources:
+- name: airline_data
+  description: Source data for airline operations
+  schema: TPCH_SF1_STAGING
+  tables:
+  - name: Airline1
+    description: Airline operational data

@@ -1,0 +1,13 @@
+snowflake_dbt_demo:
+  outputs:
+    dev:
+      type: snowflake
+      account: dgnmgse-qq02590
+      user: ariapigeonstest
+      password: Hooloo12
+      role: ACCOUNTADMIN
+      database: DBT_DEMO
+      warehouse: COMPUTE_WH
+      schema: TPCH_SF1
+      threads: 4
+  target: dev
